@@ -104,4 +104,12 @@
         <tag>-提问 Q&amp;A</tag>
       </tags>
   </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/02/08/2024/helloword/</url>
+    <content><![CDATA[<h1 id="C-语言实例-输出-“Hello-World-”"><a href="#C-语言实例-输出-“Hello-World-”" class="headerlink" title="C 语言实例 - 输出 “Hello, World!”"></a>C 语言实例 - 输出 “Hello, World!”</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment">#include &lt;stdio.h&gt;</span></span><br><span class="line">int <span class="function"><span class="title">main</span></span>()</span><br><span class="line">&#123;</span><br><span class="line">   // <span class="built_in">printf</span>() 中字符串需要引号</span><br><span class="line">   <span class="built_in">printf</span>(<span class="string">&quot;Hello, World!&quot;</span>);</span><br><span class="line">   <span class="built_in">return</span> 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      <tags>
+        <tag>C++</tag>
+      </tags>
+  </entry>
 </search>
