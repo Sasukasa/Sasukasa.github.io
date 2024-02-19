@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>SasukasaWorks!</title>
+  
+  <subtitle>Sasukasa NetWork</subtitle>
+  <link href="https://sasukasa.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://sasukasa.github.io/"/>
+  <updated>2024-02-08T02:24:37.557Z</updated>
+  <id>https://sasukasa.github.io/</id>
+  
+  <author>
+    <name>Sasukasa</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://sasukasa.github.io/02/08/2024/helloword/"/>
+    <id>https://sasukasa.github.io/02/08/2024/helloword/</id>
+    <published>2024-02-08T02:00:00.000Z</published>
+    <updated>2024-02-08T02:24:37.557Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="C-语言实例-输出-“Hello-World-”"><a href="#C-语言实例-输出-“Hello-World-”" class="headerlink" title="C 语言实例 - 输出 “Hello, World!”"></a>C 语言实例 - 输出 “Hello, World!”</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#include &lt;stdio.h&gt;</span></span><br><span class="line">int <span class="function"><span class="title">main</span></span>()</span><br><span class="line">&#123;</span><br><span class="line">   // <span class="built_in">printf</span>() 中字符串需要引号</span><br><span class="line">   <span class="built_in">printf</span>(<span class="string">&quot;Hello, World!&quot;</span>);</span><br><span class="line">   <span class="built_in">return</span> 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;C-语言实例-输出-“Hello-World-”&quot;&gt;&lt;a href=&quot;#C-语言实例-输出-“Hello-World-”&quot; class=&quot;headerlink&quot; title=&quot;C 语言实例 - 输出 “Hello, World!”&quot;&gt;&lt;/a&gt;C 语言实例 - 输出</summary>
+      
+    
+    
+    
+    
+    <category term="C++" scheme="https://sasukasa.github.io/tags/C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Chrome OS</title>
+    <link href="https://sasukasa.github.io/02/08/2024/os/"/>
+    <id>https://sasukasa.github.io/02/08/2024/os/</id>
+    <published>2024-02-07T22:13:37.000Z</published>
+    <updated>2024-02-07T22:17:09.766Z</updated>
+    
+    <content type="html"><![CDATA[<p>旧电脑装 Chrome OS，官方「刷机」方案来了：Chrome OS Flex 安装与体验<br>黎明前线Alan<br>黎明前线Alan<br>2022 年 04 月 21 日<br>即便没用过，你大概也会在近几年的各种报道中听闻过 Chrome OS 的名字：它是 Google 基于 Chrome 浏览器生态开发的轻量级云端操作系统，2020 年市场份额甚至还超越了 macOS 成为第二大操作系统。加上后续对 Android、Linux 应用运行环境的支持，对大多数国内用户而言还比较陌生的 Chrome OS，事实上也已经成为了一个成熟的桌面端操作系统。</p><p>今年 2 月，Chrome Enterprise 团队发布了面向 Windows&#x2F;macOS&#x2F;Linux 设备、可以快速刷入的 Chrome OS 系统分支 —— Chrome OS Flex。</p><p>作为一项拥有 Chrome OS 官方支持的「刷机」服务，除了轻量级的特征之外，它的出现瞄准的是教育市场大规模部署的现实需求，安装过程自然也相对简单——这个项目其实能上溯到 2020 年，当时 Google 收购了开发 CloudReady 的公司 Neverware，而 CloudReady 就是一个基于开源的 Chromium OS 代码库开发而来的操作系统，它在 ChromiumOS 原本就很「轻量级」的基础上，进一步对系统组件进行了尽可能地精简，让这一系统在有着大量老旧、低性能 PC 设备的欧美教育市场能够大规模部署。</p><p>在被 Google 收购之后，CloudReady 也成为了 Chrome OS 套件的一部分，在整合了更为完整的 Google 第一方服务之后，如今它也得以以 Chrome OS Flex 的形态继续运行下去。</p><p>无论是 Windows、macOS 还是 Linux 系统的笔记本电脑，都可以通过官方提供的镜像文件安装上 Chrome OS Flex 系统。当然，Chrome OS Flex 官方还是提供了一个供参考的最低硬件配置要求：</p><p>兼容 Intel 或 AMD x86-64 位设备<br>至少 4 GB RAM<br>至少 16 GB 内部存储空间<br>可以使用 USB 介质作为启动盘<br>BIOS 有完整管理员访问&#x2F;操作权限<br>满足上面五项要求，这台设备就至少可以正常运行 Chrome OS Flex 系统了。不过 Google 文档中也有提到 2010 年之前设备的可能会因为处理器与显卡性能导致「糟糕的使用体验」，另外能正常运行 Chrome OS Flex 也并不意味着设备能正常使用所有功能，这个我们之后会详细介绍。</p><h1 id="安装指南"><a href="#安装指南" class="headerlink" title="安装指南"></a>安装指南</h1><p>首先仍然需要声明的是：Chrome OS Flex 项目目前仍处于早期测试阶段。因此如果通过官方渠道进行安装，则需要手动填写申请邮件才有机会获得 Chrome OS Flex 的测试资格。但既然你已经看到这里并已经清楚风险，并且想要在自己的设备尝鲜 Chrome OS Flex，跟随本文的教程也可以省去很多繁琐步骤和麻烦。</p><p>首先，我们需要准备一个至少 8GB 容量的 U 盘来烧录 Chrome OS Flex 启动盘，同时也需要一台已经运行有 Chrome 浏览器的电脑（Chrome OS 也可以）来制作启动盘。</p><p>准备就绪后，前往 Chrome 线上应用商店并安装 Chromebook 恢复工具。</p><p>安装完成之后，打开 Chrome 插件管理页面，确保 Chromebook 恢复工具的开关是打开状态。如果没有的话手动点击卡片右下角的蓝色按钮将其开启。</p><p>上述插件安装完成之后，点击打开 Chromebook 恢复工具，开始启动盘烧录过程。</p><p>在品牌列表选项中选择 Google Chrome OS Flex，型号选择参考下图。在数次确定之后，启动盘制作过程就会自动开始。这个过程花费的时长视网速区别有较大差异，但无论如何，整个制作过程还是相当简便的。</p><p>Chrome OS Flex 启动盘制作完成之后，关闭设备并进入 BIOS 引导从启动盘启动：不同品牌 PC 的按键各有不同，Mac 可以通过在开机时按下电源键之后立即按下 Option 键进入引导界面。之后我们就可以启动 Chrome OS Flex 了。</p><p>虽然 Chrome OS Flex 提供了不安装只在启动盘中体验的选项，这里需要注意一下安装介质本身的速率对于安装能否顺利以及直接运行的性能都相当重要。并且如果想要相对长期的使用，就必须使用启动盘来直接在设备上安装 Chrome OS Flex；由于 Chrome OS Flex 安装选项中并无提供选择盘符安装的选项因此也意味着 Chrome OS Flex 的安装流程将会抹掉磁盘上包括原本系统在内的全部资料。</p><h1 id="实际体验"><a href="#实际体验" class="headerlink" title="实际体验"></a>实际体验</h1><p>那 Chrome OS Flex 的体验，值不值我们完全抹掉一台旧设备来刷入安装呢？</p><p>对于 Google 粉丝或是生态内的重度用户来讲，Google 第一方系统的优势在 Chrome OS Flex 中可以说是得到了最大程度的展现：例如在控制面板直接查找&#x2F;静音你的手机，收发短信同步、以及使用手机数据来访问网络，使用手机解锁电脑等等，这些一直都是 Chrome OS 的传统优势。</p><p>另外，从安装系统并登录 Google 账号之后开始，我们之前使用过的 PWA 应用也会自动被同步到新系统中。给原本 Google 生态下的用户一种「拎包入住」 的便捷感，这些都是 Chrome OS 本身作为一个「云端系统」 所拥有的优势。</p><p>除了上述这些，Google 第一方的文件传输工具 Nearby Share 在目前的 Chrome OS Flex 也已经得到支持，另外 2022 年内还会支持更多 Fast Pair 设备切换功能以及 Android 13 中通过手机在 Chrome OS 端串流运行 Android 应用，这些特性未来也都会如数加入 Chrome OS Flex。</p><p>由于 Chrome OS 本质上主要功能更新都依赖云端同步，因此主线 Chrome OS 中更新的各种功能&#x2F;样式与 Bug 修补，Chrome OS Flex 也基本都能保证同步更新，而且可以预期的是未来也会有和 Chrome OS 一样的、几乎无限周期的「刷版本号」式更新，这也会成为 Chrome OS Flex 的一项优势。</p><p>Chrome OS Flex 最实用的价值在于，对于低性能设备而言，将系统换为 Chrome OS Flex 除了能进一步提升 Chrome 浏览器本身的运行效率，还能省出更多存储空间。如果你日常的工作内容都已经能使用 Chrome 生态与 Google 系服务，以及各种在线工具来完成，Chrome OS Flex 对老设备当然是一次相当值得的「翻新」。</p><p>不过上述这些几乎已经是 Chrome OS Flex 的全部优势了：对于不需要&#x2F;不常用 Google 服务的人来讲，Chrome OS Flex 的各种「便捷功能」也很可能变成使用上的不便，不仅在 Chrome OS Flex 的安装过程中就需要登录 Google 账户、锁屏密码会被自动设定为对应 Google 账户的密码……这些细节也进一步增加了国内用户使用 Chrome OS Flex 的门槛。</p><p>说到门槛，Chrome OS Flex 另一个略显尴尬之处在于它不支持 Android App 的运行，这在一定程度上限制了设备拓展玩法的可能性；至于 Linux 运行环境，则要更要视设备硬件来决定是否可以正常开启。在我手上的这台 PC 上，常见提供 deb 安装包的 Linux 版本 App 都可以直接安装并运行。</p><p>在开发者选项中将 「Linux 开发环境」一项选中，就可以手动分配 Linux 运行环境的安装空间以及权限设置等信息。Linux 在桌面端的应用生态上甚至会比 Chrome OS 原生系统更适合使用，这里可以根据自己的需求以及设备规格自行调整。</p><p>如果你是 Linux 资深用户愿意折腾，并且设备性能足够，你甚至可以在 Chrome OS Flex 的 Linux 开发环境跑起来 VS Code &#x2F; Android Studio 这样的开发工具。</p><p>另外，Chrome OS 老生常谈的中文输入法简陋问题一样对中文用户很不友好，内置的中文输入法自定义程度相当低，以 2022 年的标准来看甚至达不到堪用的标准，而 Chrome OS 支持第三方输入法这件事本身就已经是一个陈年老大难。虽然借助于 Linux 运行环境可以选择安装搜狗输入法，但仍然无法在 Chrome OS 原生环境下使用。</p><h1 id="替代方案"><a href="#替代方案" class="headerlink" title="替代方案"></a>替代方案</h1><p>从上述的这些优点&#x2F;缺点其实能看出，不同于 Linux 或是一些 Android 第三方 ROM 非盈利项目面向第三方设备开放刷入权限的行为，Google 正是因为意识到这其中的市场价值，才积极推动 Chrome OS Flex 项目来借机推广 Google 服务。并且由于目标教育市场&#x2F;上手学习成本限制，Chrome OS Flex 的各种优缺点都相当明显，并且和 Chrome OS 一样依然没有太多的妥协余地。</p><p>好在这并不意味着想体验 Chrome OS 只有这一个选择：如果你真的有性能相对足够的设备，或是只是想体验 Chrome OS 系统，并且只能在自己日常使用最多的设备上分区安装，起 Chrome OS 更好的选择也还有很多。这些替代方案在 Android App 支持等方面更加灵活甚至更有优势。</p><p>在之前在群组中的讨论中，我们还重点提到了其他两个 Chrome OS 安装替代选项：借助 Brunch 框架直接安装完整的 Chrome OS 系统以及燧炻创新基于 ChromiumOS 开发而来的 FydeOS。</p><p>如果使用 Brunch 框架安装 Chrome OS，我们需要在 GitHub 主页中下载镜像文件，并根据对应硬件规格制作启动盘，安装过程相对 Chrome OS Flex 要复杂一些，具体安装教程可以参考 这篇文章。</p><p>比起 Chrome OS Flex，Brunch 方案的优势在于保留了 Android 运行环境，同时也可以手动划分磁盘分区，方便我们在保留原本系统的同时安装 Chrome OS 来尝鲜。</p><p>另一个 FydeOS 设备支持则更加完善，主要的「本地化」改进在于 FydeOS 基于 ChromiumOS 开发而来，因此完全剥离了 Chrome OS 中几乎无处不在的 Google 服务，而很多人更加看重的 Android &#x2F; Linux 应用运行环境则原汁原味地保留了下来。</p><p>FydeOS 官方提供了对 Surface、荣耀平板等多设备的适配支持，甚至是取代掉 Google 服务的本地云同步系统。不过这些属于商业服务范畴，需要付费使用。不过面向虚拟机以及普通 PC 安装的版本都还是免费的。</p><p>严格意义上来讲，FydeOS 已经不能算是 Chrome OS 的衍生品了，我们同样可以将 FydeOS 安装到特定磁盘分区，并且由于剥离了 Google 服务，在国内网络环境中使用门槛相对更低。FydeOS 自己也有运营适合国内生态的应用商店，更适合国内用户。</p><h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>Chrome OS Flex 是 Google 战略下特征相当鲜明的产物：熟悉 Google 生态的用户可以「拎包入住」，简便易用的安装体验也适用于大规模部署需求。但为此取舍的地方很多，反而也不是很适合想要尝鲜 Chrome OS 的玩家，以及想要借助 Chrome OS 让老设备发挥出最大余热的用户。</p><p>如果你用来安装 Chrome OS Flex 的设备性能本身就足够，那在 macOS &#x2F; Windows 环境下都能获得比较完善的 Chrome OS Flex 体验，在键盘快捷键、驱动完善程度等方面也不会有什么问题。但如果你对 Chrome OS 的期待主要集中在 Android 应用支持、旧设备重新利用等方面，相信你在看完本文之后也能权衡得出更好的解决方案。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;旧电脑装 Chrome OS，官方「刷机」方案来了：Chrome OS Flex 安装与体验&lt;br&gt;黎明前线Alan&lt;br&gt;黎明前线Alan&lt;br&gt;2022 年 04 月 21 日&lt;br&gt;即便没用过，你大概也会在近几年的各种报道中听闻过 Chrome OS 的名字：它是 G</summary>
+      
+    
+    
+    
+    
+    <category term="OS" scheme="https://sasukasa.github.io/tags/OS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>HTML</title>
+    <link href="https://sasukasa.github.io/02/08/2024/html/"/>
+    <id>https://sasukasa.github.io/02/08/2024/html/</id>
+    <published>2024-02-07T22:13:37.000Z</published>
+    <updated>2024-02-19T07:10:33.862Z</updated>
+    
+    <content type="html"><![CDATA[<p>计算机英语单词：<br>head  头部；title  标题；body  身体；doctype  声明；char 字符，编码；set 设置；image  图片；source  资源；width  宽度；height  高度；background  背景；color  颜色；style  样式；class  种类；identity  身份；selector  选择器；cyan  青色；orange  橘色；purple  紫色；link  连接；text  文本；stylesheet 样式表；green  绿色；normal  标准的；size  尺寸；weight  重量；line  线条；align  排列；indent  缩进；decoration  装饰；</p><p>第1课：<br>1.HTML的由来：(超文本标记语言)<br>全称：HyperText Markup Language</p><p>2.HTML语言中主要有2种标记：<br>（1）单标记<br>格式：<br>&lt;标记名 &#x2F;&gt;<br>例如：</p><meta charset="UTF-8"><p>（2）双标记<br>格式：<br>&lt;标记名&gt;内容&lt;&#x2F;标记名&gt;<br>例如：</p><p>你好</p><p>3.HTML模板各个标记的意义：<br>例如：<br><!DOCTYPE html></p><html>    <head>        <meta charset="UTF-8">        <title>欢迎来到我的网页</title>    </head>    <body>hello,world!</body></html>（1）<!DOCTYPE html>：声明网页采用HTML5模板规范（2）<html></html>：浏览器识别HTML文档的标志（3）<head></head>：定义文档属性信息（4）<body></body>：定义文档的主体内容，即网页可见页面内容（5）<meta charset="UTF-8">：设置网页的编码为UTF-8，就可以显示中文了（6）<title></title>：设置网页的标题<p>4.html语言中注释的语法格式：</p><!-- 注释内容 --><p>第2课：<br>1.img单标签 <img><br>使用格式：<br><img src="/.io//图片路径"></p><p>2.路径访问上一级的格式：”..&#x2F;“,访问同级可以不写或者写’.&#x2F;‘</p><p>3.样式属性 style&#x3D;””<br>当一个标签想要设置样式，就可以添加style设置样式属性，格式：<br>style&#x3D;”属性1:属性值；属性2:属性值；属性3：属性值…”<br>例如：<br><img src="images/dragon.jpg" style="width: 241px;height:100px;"></p><p>4.当只设置图片的宽或高时，图片会等比缩放；但是，当同时设置宽高时，有可能因为设置的比例不协调，造成图片失真。</p><p>第3课：<br>1.<div></div>双标签<br>用来定义网页中的分区，可以作为容器去使用。</p><p>2.<span></span>双标签<br>文字可以通过<span>标签进行区域划分，可以在标签里为文字设置样式。<br>例如：<br>金樽<span style="background-color: green">清酒</span>斗十千，玉盘珍馐值万钱。</span></p><p>3.<span>标签设置宽高属性不生效。</span></p><p>第4课：<br>1.CSS 层叠样式表<br>作用：为网页设置样式</p><p>2.CSS 的引入方式：<br>（1）行间样式：<br>把style写在标签里的样式引入方式称为行间样式<br>例如：</p><div style="width:400px;height:400px;background-color: pink"></div>（2）内部样式表在<head></head>标签里添加<style></style>标签，然后把样式属性都写在style里的方式，称为内部样式表。例如：<!DOCTYPE html><html>    <head>        <meta charset="utf-8">        <title>内部样式表</title>        <style>        div{        width:175px;        background-color:pink;        }        </style>    </head>     <body>        <div>div(*^▽^*)</div>    </body></html>（3）外部样式表<p>3.选择器的类型：<br>（1）元素选择器（标签选择器）：<br>为所有该标签设置样式。<br>例如,为所有span标签设置字体颜色为绿色：</p><style>    span{        color:green;    }</style><p>（2）类选择器（class选择器）：<br>先在标签里给该标签取一个class名，再根据类选择器设置样式。<br>例如，给所有class名叫a的设置样式：<br>….</p><style>    .a{        color:pink;    }</style><p>….</p><body>    <div class="a"></div></body>（3）id选择器：<p>4.选择器的书写格式：<br>（1）元素选择器：<br>格式：<br>元素名{<br>    样式….<br>}<br>例如：<br>div{<br>    width:40px;<br>}<br>（2）class选择器<br>格式：<br>.类名{<br>    样式….<br>}<br>例如：<br>.pink{<br>    background-color:pink;<br>}<br>….</p><div class="pink"></div>（3）id选择器格式：#id名{    样式...}例如：#a{    width:400px;}...<div id="a"></div><p>第5课：<br>1.选择器优先级排序：<br>id选择器 &gt; class选择器  &gt; 元素选择器</p><p>第6课：<br>1.外部样式表的引入：</p><link rel="stylesheet" type="text/css" href="css文件路径"><p>2.样式表优先级：<br>参照就近原则</p><p>第7课：<br>1.</p><h1>~<h6>标签：用来设置文本标题，由大到小<p></p><p>2.</p><p></p> 用于设置网页中的段落<br>例如：<p></p><p>大鱼拖着船往海里走，老人依然死拉着不放，即使没有水，没有食物，没有武器，没有助手，左手抽筋，他也丝毫不灰心。经过两天两夜之后，他终于杀死大鱼，把它拴在船边。但许多鲨鱼立刻前来抢夺他的战利品。</p><p>3.color 样式属性：用来设置文本的字体颜色<br>注意：color是设置字体颜色，background-color是设置背景颜色！</p><p>4.font-size 样式属性：用来设置字体大小,值用 px 单位表示。<br>例如：<br>font-size:100px;</p><p>5.font-weight 样式属性：用来设置字体加粗，值只有两个。<br>（1）normal，表示不加粗，默认就是normal<br>（2）bold，表示加粗。<br>设置字体加粗方式如下：<br>font-weight:bold;</p><p>第8课：<br>1.font-family 属性：用来设置字体样式。<br>例如：<br>.p1{<br>    font-family:”Arial Black”;<br>}</p><p>2.text-align 属性：用来设置标记内容的水平对齐方式，有3种值：<br>（1）left:水平居左<br>（2）center：水平居中<br>（3）right：水平居右</p><p>3.text-decoration 属性：用来设置下划线<br>例如：<br>p{<br>    text-decoration:underline;<br>}</p><p>4.line-height 属性：用来设置行高，值有2种情况：<br>（1）以px结尾：（常用来设置文本垂直居中）<br>例如：<br>line-height: 200px;<br>（2）直接使用数字：（较为常用）<br>例如：<br>line-height:4;<br>#设置行高为当前字体大小的4倍</p><p>5.text-indent 属性：用来设置元素缩进，常用于段落<br>例如：<br>p{<br>    text-indent:2em;#em表示1个字符大小的单位</p><p>Line 线条 Align 排列 Indent 缩进 Decoration 装饰</p><ol><li>font-family 设置字体样式<br> .p1{<br>     font-family:”微软雅黑”;<br> }</li></ol><p>2.text-align 设置标记内容的水平对齐方式<br>left居左 center居中 right居右<br>3. text-decoration 设置下划线<br>p.{<br>            text-decoration: underline;<br>        }<br>4.line-height 用来设置行高<br>值有两种情况<br>Px 常用于设置文本垂直居中<br>直接使用数字<br>例如line-height:4<br>#设置行高为当前字体的4倍<br>5.text-indent 用来设置元素缩进 常用于段落<br>.back{</p><pre><code>            text-indent:3em;        &#125;</code></pre></h6></h1>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;计算机英语单词：&lt;br&gt;head  头部；title  标题；body  身体；doctype  声明；char 字符，编码；set 设置；image  图片；source  资源；width  宽度；height  高度；background  背景；color  颜色；</summary>
+      
+    
+    
+    
+    
+    <category term="HTML" scheme="https://sasukasa.github.io/tags/HTML/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>测试</title>
+    <link href="https://sasukasa.github.io/02/07/2024/test/"/>
+    <id>https://sasukasa.github.io/02/07/2024/test/</id>
+    <published>2024-02-07T14:00:00.000Z</published>
+    <updated>2024-02-19T05:54:18.639Z</updated>
+    
+    <content type="html"><![CDATA[<!DOCTYPE html><html><head>    <meta charset="utf-8">    <meta name="viewport" content="width=device-width, initial-scale=1">    <title>test</title></head><body><iframe width="640px" height="480px" src="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAANAAWAfc1BUN0dENVBYRU1HMlVWM0szMTlSMTlKS1o3SS4u&embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe></body></html><blockquote><p>Powered By SasukasaNetwork!<br>2&#x2F;7&#x2F;2024</p></blockquote>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+    &lt;title</summary>
+      
+    
+    
+    
+    
+    <category term="测试" scheme="https://sasukasa.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://sasukasa.github.io/02/07/2024/hello-world/"/>
+    <id>https://sasukasa.github.io/02/07/2024/hello-world/</id>
+    <published>2024-02-07T09:11:15.054Z</published>
+    <updated>2024-01-13T16:37:14.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>SasukasaOSWork|SanPixel System</title>
+    <link href="https://sasukasa.github.io/01/28/2024/speak/"/>
+    <id>https://sasukasa.github.io/01/28/2024/speak/</id>
+    <published>2024-01-28T01:00:00.000Z</published>
+    <updated>2024-02-19T05:55:18.794Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="/images/PPTOS.png" alt="图片" title="PPTOS"></p><h1 id="关于SanPixel-OS"><a href="#关于SanPixel-OS" class="headerlink" title="关于SanPixel OS"></a>关于SanPixel OS</h1><p>SanPixel OS是由Sasukasa Network下Sasukasa OSWork团队联合微软R PowerPoinT软件所开发的一款开放式OS操作系统</p><h1 id="SanPixel-OS-的主要编码方式"><a href="#SanPixel-OS-的主要编码方式" class="headerlink" title="SanPixel OS 的主要编码方式"></a>SanPixel OS 的主要编码方式</h1><p>PowerPoint</p><h1 id="我要如何体验SanPixel-OS"><a href="#我要如何体验SanPixel-OS" class="headerlink" title="我要如何体验SanPixel OS"></a>我要如何体验SanPixel OS</h1><p>SanPixel OS现在还正在处于测试和编码之中，暂不支持公测</p><blockquote><p>Powered By SasukasaNetwork!<br>1&#x2F;28&#x2F;2024</p></blockquote>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;/images/PPTOS.png&quot; alt=&quot;图片&quot; title=&quot;PPTOS&quot;&gt;&lt;/p&gt;
+&lt;h1 id=&quot;关于SanPixel-OS&quot;&gt;&lt;a href=&quot;#关于SanPixel-OS&quot; class=&quot;headerlink&quot; title=&quot;关于SanP</summary>
+      
+    
+    
+    
+    
+    <category term="SanpixelOS" scheme="https://sasukasa.github.io/tags/SanpixelOS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SasukasaTrainsit|空行线规划一周年纪念</title>
+    <link href="https://sasukasa.github.io/01/20/2024/SasukasaTrainsit/"/>
+    <id>https://sasukasa.github.io/01/20/2024/SasukasaTrainsit/</id>
+    <published>2024-01-20T13:25:06.000Z</published>
+    <updated>2024-01-20T13:34:28.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="/images/HOUKAI.png" alt="图片" title="HOUKAI"></p><blockquote><p>Powered By SasukasaNetwork!<br>1&#x2F;20&#x2F;2024</p></blockquote>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;/images/HOUKAI.png&quot; alt=&quot;图片&quot; title=&quot;HOUKAI&quot;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Powered By SasukasaNetwork!&lt;br&gt;1&amp;#x2F;20&amp;#x2F;2024&lt;/p&gt;
+&lt;/block</summary>
+      
+    
+    
+    
+    
+    <category term="-SasukasaTrainsit" scheme="https://sasukasa.github.io/tags/SasukasaTrainsit/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>生日特辑|It&#39;s my birthday!</title>
+    <link href="https://sasukasa.github.io/01/16/2024/SasukasaNetWork/"/>
+    <id>https://sasukasa.github.io/01/16/2024/SasukasaNetWork/</id>
+    <published>2024-01-15T16:00:00.000Z</published>
+    <updated>2024-01-20T11:08:36.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="欢迎来到我的生日派对！"><a href="#欢迎来到我的生日派对！" class="headerlink" title="欢迎来到我的生日派对！"></a>欢迎来到我的生日派对！</h1><p>谢谢你邀请我参加你的生日聚会，我感到非常的高兴！</p><p>“thanks for inviting me to your birthday party.i feel very excited.the party is lively,and we all have enjoyed ourselves..”</p><h1 id="年的第一场雪，收到你温暖的礼物，感谢有你的第一个冬天"><a href="#年的第一场雪，收到你温暖的礼物，感谢有你的第一个冬天" class="headerlink" title="年的第一场雪，收到你温暖的礼物，感谢有你的第一个冬天"></a>年的第一场雪，收到你温暖的礼物，感谢有你的第一个冬天</h1><p><img src="/images/BIRTHDAY.jpg" alt="图片" title="BIRTHDAY"></p><blockquote><p>Powered By SasukasaNetwork!<br>1&#x2F;16&#x2F;2024 </p></blockquote>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;欢迎来到我的生日派对！&quot;&gt;&lt;a href=&quot;#欢迎来到我的生日派对！&quot; class=&quot;headerlink&quot; title=&quot;欢迎来到我的生日派对！&quot;&gt;&lt;/a&gt;欢迎来到我的生日派对！&lt;/h1&gt;&lt;p&gt;谢谢你邀请我参加你的生日聚会，我感到非常的高兴！&lt;/p&gt;
+&lt;p&gt;“t</summary>
+      
+    
+    
+    
+    <category term="节日" scheme="https://sasukasa.github.io/categories/%E8%8A%82%E6%97%A5/"/>
+    
+    
+    <category term="-FESTIVAL" scheme="https://sasukasa.github.io/tags/FESTIVAL/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>匿名纸箱|ASK QUESTION FOR ME!</title>
+    <link href="https://sasukasa.github.io/01/15/2024/%E5%8C%BF%E5%90%8D%E7%BA%B8%E7%AE%B1/"/>
+    <id>https://sasukasa.github.io/01/15/2024/%E5%8C%BF%E5%90%8D%E7%BA%B8%E7%AE%B1/</id>
+    <published>2024-01-15T05:41:16.000Z</published>
+    <updated>2024-01-16T07:08:18.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="欢迎来到我的个人博客哦！"><a href="#欢迎来到我的个人博客哦！" class="headerlink" title="欢迎来到我的个人博客哦！"></a>欢迎来到我的个人博客哦！</h1><p>“年度歌单里排名第一的是哪首歌？”“未来十年你的人生规划？”最近，这种别人能够匿名向自己提问的“提问箱”越来越得到年轻人的钟爱。只需要在朋友圈或是微博发出一个提问链接，便能收到来自四面八方的匿名提问，问题类型涵盖了学习、生活甚至是隐私的方方面面。无论是释放好奇还是解答困惑，“匿名提问箱”正在为当下的互联网社交建立全新的互动关系。</p><p>所以</p><h1 id="来我的提问箱问问我吧！："><a href="#来我的提问箱问问我吧！：" class="headerlink" title="来我的提问箱问问我吧！："></a>来我的提问箱问问我吧！：</h1><blockquote><p>评论方式:评论区提问(自定义昵称以及邮箱)</p></blockquote><h2 id="注意填写正确格式的邮箱地址以方便我对您进行回复哦"><a href="#注意填写正确格式的邮箱地址以方便我对您进行回复哦" class="headerlink" title="注意填写正确格式的邮箱地址以方便我对您进行回复哦"></a>注意填写正确格式的邮箱地址以方便我对您进行回复哦</h2><blockquote><p>Powered By SasukasaNetwork!<br>1&#x2F;15&#x2F;2024</p></blockquote>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;欢迎来到我的个人博客哦！&quot;&gt;&lt;a href=&quot;#欢迎来到我的个人博客哦！&quot; class=&quot;headerlink&quot; title=&quot;欢迎来到我的个人博客哦！&quot;&gt;&lt;/a&gt;欢迎来到我的个人博客哦！&lt;/h1&gt;&lt;p&gt;“年度歌单里排名第一的是哪首歌？”“未来十年你的人生规划？”</summary>
+      
+    
+    
+    
+    <category term="说在前面" scheme="https://sasukasa.github.io/categories/%E8%AF%B4%E5%9C%A8%E5%89%8D%E9%9D%A2/"/>
+    
+    
+    <category term="-提问 Q&amp;A" scheme="https://sasukasa.github.io/tags/%E6%8F%90%E9%97%AE-Q-A/"/>
+    
+  </entry>
+  
+</feed>

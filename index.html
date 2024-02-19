@@ -72,6 +72,7 @@
   </style>
 </noscript>
 
+<link rel="alternate" href="/atom.xml" title="SasukasaWorks!" type="application/atom+xml">
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage">
@@ -364,6 +365,198 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-HK">
+    <link itemprop="mainEntityOfPage" href="https://sasukasa.github.io/02/08/2024/html/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="Sasukasa">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="SasukasaWorks!">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/02/08/2024/html/" class="post-title-link" itemprop="url">HTML</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">發表於</span>
+
+              <time title="創建時間：2024-02-08 06:13:37" itemprop="dateCreated datePublished" datetime="2024-02-08T06:13:37+08:00">2024-02-08</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新於</span>
+                <time title="修改時間：2024-02-19 15:10:33" itemprop="dateModified" datetime="2024-02-19T15:10:33+08:00">2024-02-19</time>
+              </span>
+
+          
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/02/08/2024/html/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/02/08/2024/html/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>计算机英语单词：<br>head  头部；title  标题；body  身体；doctype  声明；char 字符，编码；set 设置；image  图片；source  资源；width  宽度；height  高度；background  背景；color  颜色；style  样式；class  种类；identity  身份；selector  选择器；cyan  青色；orange  橘色；purple  紫色；link  连接；text  文本；stylesheet 样式表；green  绿色；normal  标准的；size  尺寸；weight  重量；line  线条；align  排列；indent  缩进；decoration  装饰；</p>
+<p>第1课：<br>1.HTML的由来：(超文本标记语言)<br>全称：HyperText Markup Language</p>
+<p>2.HTML语言中主要有2种标记：<br>（1）单标记<br>格式：<br>&lt;标记名 &#x2F;&gt;<br>例如：</p>
+<meta charset="UTF-8">
+
+<p>（2）双标记<br>格式：<br>&lt;标记名&gt;内容&lt;&#x2F;标记名&gt;<br>例如：</p>
+<p>你好</p>
+
+<p>3.HTML模板各个标记的意义：<br>例如：<br><!DOCTYPE html></p>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>欢迎来到我的网页</title>
+    </head>
+    <body>hello,world!</body>
+</html>
+（1）<!DOCTYPE html>：声明网页采用HTML5模板规范
+（2）<html></html>：浏览器识别HTML文档的标志
+（3）<head></head>：定义文档属性信息
+（4）<body></body>：定义文档的主体内容，即网页可见页面内容
+（5）<meta charset="UTF-8">：设置网页的编码为UTF-8，就可以显示中文了
+（6）<title></title>：设置网页的标题
+
+<p>4.html语言中注释的语法格式：</p>
+<!-- 注释内容 -->
+
+<p>第2课：<br>1.img单标签 <img><br>使用格式：<br><img src="/.io//图片路径"></p>
+<p>2.路径访问上一级的格式：”..&#x2F;“,访问同级可以不写或者写’.&#x2F;‘</p>
+<p>3.样式属性 style&#x3D;””<br>当一个标签想要设置样式，就可以添加style设置样式属性，格式：<br>style&#x3D;”属性1:属性值；属性2:属性值；属性3：属性值…”<br>例如：<br><img src="images/dragon.jpg" style="width: 241px;height:100px;"></p>
+<p>4.当只设置图片的宽或高时，图片会等比缩放；但是，当同时设置宽高时，有可能因为设置的比例不协调，造成图片失真。</p>
+<p>第3课：<br>1.<div></div>双标签<br>用来定义网页中的分区，可以作为容器去使用。</p>
+<p>2.<span></span>双标签<br>文字可以通过<span>标签进行区域划分，可以在标签里为文字设置样式。<br>例如：<br>金樽<span style="background-color: green">清酒</span>斗十千，玉盘珍馐值万钱。</span></p>
+<p>3.<span>标签设置宽高属性不生效。</span></p>
+<p>第4课：<br>1.CSS 层叠样式表<br>作用：为网页设置样式</p>
+<p>2.CSS 的引入方式：<br>（1）行间样式：<br>把style写在标签里的样式引入方式称为行间样式<br>例如：</p>
+<div style="width:400px;height:400px;background-color: pink"></div>
+（2）内部样式表
+在<head></head>标签里添加<style></style>标签，然后把样式属性都写在style里的方式，称为内部样式表。
+例如：
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>内部样式表</title>
+        <style>
+        	div{
+        		width:175px;
+        		background-color:pink;
+        	}
+        </style>
+    </head> 
+    <body>
+        <div>div(*^▽^*)</div>
+    </body>
+</html>
+（3）外部样式表
+
+<p>3.选择器的类型：<br>（1）元素选择器（标签选择器）：<br>为所有该标签设置样式。<br>例如,为所有span标签设置字体颜色为绿色：</p>
+<style>
+    span{
+        color:green;
+    }
+</style>
+<p>（2）类选择器（class选择器）：<br>先在标签里给该标签取一个class名，再根据类选择器设置样式。<br>例如，给所有class名叫a的设置样式：<br>….</p>
+<style>
+    .a{
+        color:pink;
+    }
+</style>
+<p>….</p>
+<body>
+    <div class="a"></div>
+</body>
+（3）id选择器：
+
+<p>4.选择器的书写格式：<br>（1）元素选择器：<br>格式：<br>元素名{<br>    样式….<br>}<br>例如：<br>div{<br>    width:40px;<br>}<br>（2）class选择器<br>格式：<br>.类名{<br>    样式….<br>}<br>例如：<br>.pink{<br>    background-color:pink;<br>}<br>….</p>
+<div class="pink"></div>
+（3）id选择器
+格式：
+#id名{
+    样式...
+}
+例如：
+#a{
+    width:400px;
+}
+...
+<div id="a"></div>
+
+<p>第5课：<br>1.选择器优先级排序：<br>id选择器 &gt; class选择器  &gt; 元素选择器</p>
+<p>第6课：<br>1.外部样式表的引入：</p>
+<link rel="stylesheet" type="text/css" href="css文件路径">
+
+<p>2.样式表优先级：<br>参照就近原则</p>
+<p>第7课：<br>1.</p><h1>~<h6>标签：用来设置文本标题，由大到小<p></p>
+<p>2.</p><p></p> 用于设置网页中的段落<br>例如：<p></p>
+<p>大鱼拖着船往海里走，老人依然死拉着不放，即使没有水，没有食物，没有武器，没有助手，左手抽筋，他也丝毫不灰心。经过两天两夜之后，他终于杀死大鱼，把它拴在船边。但许多鲨鱼立刻前来抢夺他的战利品。</p>
+
+<p>3.color 样式属性：用来设置文本的字体颜色<br>注意：color是设置字体颜色，background-color是设置背景颜色！</p>
+<p>4.font-size 样式属性：用来设置字体大小,值用 px 单位表示。<br>例如：<br>font-size:100px;</p>
+<p>5.font-weight 样式属性：用来设置字体加粗，值只有两个。<br>（1）normal，表示不加粗，默认就是normal<br>（2）bold，表示加粗。<br>设置字体加粗方式如下：<br>font-weight:bold;</p>
+<p>第8课：<br>1.font-family 属性：用来设置字体样式。<br>例如：<br>.p1{<br>    font-family:”Arial Black”;<br>}</p>
+<p>2.text-align 属性：用来设置标记内容的水平对齐方式，有3种值：<br>（1）left:水平居左<br>（2）center：水平居中<br>（3）right：水平居右</p>
+<p>3.text-decoration 属性：用来设置下划线<br>例如：<br>p{<br>    text-decoration:underline;<br>}</p>
+<p>4.line-height 属性：用来设置行高，值有2种情况：<br>（1）以px结尾：（常用来设置文本垂直居中）<br>例如：<br>line-height: 200px;<br>（2）直接使用数字：（较为常用）<br>例如：<br>line-height:4;<br>#设置行高为当前字体大小的4倍</p>
+<p>5.text-indent 属性：用来设置元素缩进，常用于段落<br>例如：<br>p{<br>    text-indent:2em;#em表示1个字符大小的单位</p>
+<p>Line 线条 Align 排列 Indent 缩进 Decoration 装饰</p>
+<ol>
+<li>font-family 设置字体样式<br> .p1{<br>     font-family:”微软雅黑”;<br> }</li>
+</ol>
+<p>2.text-align 设置标记内容的水平对齐方式<br>left居左 center居中 right居右<br>3. text-decoration 设置下划线<br>p.{<br>            text-decoration: underline;<br>        }<br>4.line-height 用来设置行高<br>值有两种情况<br>Px 常用于设置文本垂直居中<br>直接使用数字<br>例如line-height:4<br>#设置行高为当前字体的4倍<br>5.text-indent 用来设置元素缩进 常用于段落<br>.back{</p>
+<pre><code>            text-indent:3em;
+        &#125;
+</code></pre>
+</h6></h1>
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-HK">
     <link itemprop="mainEntityOfPage" href="https://sasukasa.github.io/02/07/2024/test/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -387,10 +580,16 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">發表於</span>
-              
 
-              <time title="創建時間：2024-02-07 22:00:00 / 修改時間：22:01:00" itemprop="dateCreated datePublished" datetime="2024-02-07T22:00:00+08:00">2024-02-07</time>
+              <time title="創建時間：2024-02-07 22:00:00" itemprop="dateCreated datePublished" datetime="2024-02-07T22:00:00+08:00">2024-02-07</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新於</span>
+                <time title="修改時間：2024-02-19 13:54:18" itemprop="dateModified" datetime="2024-02-19T13:54:18+08:00">2024-02-19</time>
+              </span>
 
           
   
@@ -565,10 +764,16 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">發表於</span>
-              
 
-              <time title="創建時間：2024-01-28 09:00:00 / 修改時間：09:58:22" itemprop="dateCreated datePublished" datetime="2024-01-28T09:00:00+08:00">2024-01-28</time>
+              <time title="創建時間：2024-01-28 09:00:00" itemprop="dateCreated datePublished" datetime="2024-01-28T09:00:00+08:00">2024-01-28</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新於</span>
+                <time title="修改時間：2024-02-19 13:55:18" itemprop="dateModified" datetime="2024-02-19T13:55:18+08:00">2024-02-19</time>
+              </span>
 
           
   
@@ -949,7 +1154,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">8</span>
+          <span class="site-state-item-count">9</span>
           <span class="site-state-item-name">文章</span>
         </a>
       </div>
@@ -962,7 +1167,7 @@
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">8</span>
+        <span class="site-state-item-count">11</span>
         <span class="site-state-item-name">標籤</span></a>
       </div>
   </nav>
