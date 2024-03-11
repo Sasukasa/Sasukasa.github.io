@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://sasukasa.github.io/03/11/2024/HTML/</loc>
+    
+    <lastmod>2024-03-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://sasukasa.github.io/01/28/2024/speak/</loc>
     
     <lastmod>2024-02-19</lastmod>
@@ -103,7 +112,7 @@
 
   <url>
     <loc>https://sasukasa.github.io/</loc>
-    <lastmod>2024-02-26</lastmod>
+    <lastmod>2024-03-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -111,49 +120,56 @@
   
   <url>
     <loc>https://sasukasa.github.io/tags/FESTIVAL/</loc>
-    <lastmod>2024-02-26</lastmod>
+    <lastmod>2024-03-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://sasukasa.github.io/tags/C/</loc>
-    <lastmod>2024-02-26</lastmod>
+    <lastmod>2024-03-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://sasukasa.github.io/tags/SasukasaTrainsit/</loc>
-    <lastmod>2024-02-26</lastmod>
+    <lastmod>2024-03-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://sasukasa.github.io/tags/SanpixelOS/</loc>
-    <lastmod>2024-02-26</lastmod>
+    <lastmod>2024-03-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://sasukasa.github.io/tags/OS/</loc>
-    <lastmod>2024-02-26</lastmod>
+    <lastmod>2024-03-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://sasukasa.github.io/tags/%E6%8F%90%E9%97%AE-Q-A/</loc>
-    <lastmod>2024-02-26</lastmod>
+    <lastmod>2024-03-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://sasukasa.github.io/tags/%E6%B5%8B%E8%AF%95/</loc>
-    <lastmod>2024-02-26</lastmod>
+    <lastmod>2024-03-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://sasukasa.github.io/tags/HTML/</loc>
+    <lastmod>2024-03-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -162,14 +178,14 @@
   
   <url>
     <loc>https://sasukasa.github.io/categories/%E8%8A%82%E6%97%A5/</loc>
-    <lastmod>2024-02-26</lastmod>
+    <lastmod>2024-03-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://sasukasa.github.io/categories/%E8%AF%B4%E5%9C%A8%E5%89%8D%E9%9D%A2/</loc>
-    <lastmod>2024-02-26</lastmod>
+    <lastmod>2024-03-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
