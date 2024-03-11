@@ -119,14 +119,14 @@
 
   
   <url>
-    <loc>https://sasukasa.github.io/tags/FESTIVAL/</loc>
+    <loc>https://sasukasa.github.io/tags/HTML/</loc>
     <lastmod>2024-03-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://sasukasa.github.io/tags/C/</loc>
+    <loc>https://sasukasa.github.io/tags/FESTIVAL/</loc>
     <lastmod>2024-03-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -140,7 +140,7 @@
   </url>
   
   <url>
-    <loc>https://sasukasa.github.io/tags/SanpixelOS/</loc>
+    <loc>https://sasukasa.github.io/tags/C/</loc>
     <lastmod>2024-03-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -148,6 +148,13 @@
   
   <url>
     <loc>https://sasukasa.github.io/tags/OS/</loc>
+    <lastmod>2024-03-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://sasukasa.github.io/tags/SanpixelOS/</loc>
     <lastmod>2024-03-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -167,24 +174,17 @@
     <priority>0.2</priority>
   </url>
   
-  <url>
-    <loc>https://sasukasa.github.io/tags/HTML/</loc>
-    <lastmod>2024-03-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
 
   
   <url>
-    <loc>https://sasukasa.github.io/categories/%E8%8A%82%E6%97%A5/</loc>
+    <loc>https://sasukasa.github.io/categories/%E8%AF%B4%E5%9C%A8%E5%89%8D%E9%9D%A2/</loc>
     <lastmod>2024-03-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://sasukasa.github.io/categories/%E8%AF%B4%E5%9C%A8%E5%89%8D%E9%9D%A2/</loc>
+    <loc>https://sasukasa.github.io/categories/%E8%8A%82%E6%97%A5/</loc>
     <lastmod>2024-03-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
