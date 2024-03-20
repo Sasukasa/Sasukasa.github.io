@@ -169,4 +169,35 @@
         <tag>测试</tag>
       </tags>
   </entry>
+  <entry>
+    <title>人机验证|Hello reCAPTCHA</title>
+    <url>/01/15/2024/Hello%20reCAPTCHA/</url>
+    <content><![CDATA[<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <script src="//recaptcha.net/recaptcha/api.js"></script>
+    <div class="g-recaptcha" data-sitekey="6Lc1954pAAAAABuQSPQrDYXpBkLeUT-463rXSLcp"></div>
+</body>
+</html>
+
+
+
+
+
+<blockquote>
+<p>Powered By SasukasaNetwork!<br>1&#x2F;15&#x2F;2024</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>说在前面</category>
+      </categories>
+      <tags>
+        <tag>-验证</tag>
+      </tags>
+  </entry>
 </search>

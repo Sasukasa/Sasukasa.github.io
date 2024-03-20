@@ -228,4 +228,32 @@
     
   </entry>
   
+  <entry>
+    <title>人机验证|Hello reCAPTCHA</title>
+    <link href="https://sasukasa.github.io/01/15/2024/Hello%20reCAPTCHA/"/>
+    <id>https://sasukasa.github.io/01/15/2024/Hello%20reCAPTCHA/</id>
+    <published>2024-01-15T05:41:16.000Z</published>
+    <updated>2024-03-20T10:14:03.682Z</updated>
+    
+    <content type="html"><![CDATA[<!DOCTYPE html><html lang="en"><head>    <meta charset="UTF-8">    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <title></title></head><body>    <script src="//recaptcha.net/recaptcha/api.js"></script>    <div class="g-recaptcha" data-sitekey="6Lc1954pAAAAABuQSPQrDYXpBkLeUT-463rXSLcp"></div></body></html><blockquote><p>Powered By SasukasaNetwork!<br>1&#x2F;15&#x2F;2024</p></blockquote>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;</summary>
+      
+    
+    
+    
+    <category term="说在前面" scheme="https://sasukasa.github.io/categories/%E8%AF%B4%E5%9C%A8%E5%89%8D%E9%9D%A2/"/>
+    
+    
+    <category term="-验证" scheme="https://sasukasa.github.io/tags/%E9%AA%8C%E8%AF%81/"/>
+    
+  </entry>
+  
 </feed>
